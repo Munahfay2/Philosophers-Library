@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="dist/output.css"
+			rel="stylesheet"></link>
+  <title>Document</title>
+</head>
+<body>
+  <header class=" text-black  bg-blue-200">
+    <div class="container mx-auto text-center bg-blue-200">
+        <h1 class="text-3xl font-semibold">Welcome to Philosopher's Library</h1>
+        <p class="mt-2 text-lg">Exploring the Wisdom of Philosophical Books</p>
+    </div>
+    <div>
+      <nav class="flex justify-end space-x-6 bg-gray-500 text-white">
+<div class="hover:bg-gray-900">
+  <a href="src/pages/book-reviews.html">Book reviews</a>
+</div>
+<div class="hover:bg-gray-900">
+  <a href="src/pages/authers.html">Authors</a>
+</div>
+<div class="hover:bg-gray-900"> 
+  <a href="src/pages/about.html">About</a>
+</div>
+<div class="hover:bg-gray-900">
+  <a href="src/pages/contact-us.html">Contact Us</a>
+</div>
+      </nav>
+  </div>
+</header>
+<main>
+  <h2 class="text-2xl font-semibold mb-4">Featured Books</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Featured Book Card 1 -->
+      <div class="bg-white rounded-lg shadow-md ">
+          <img src="books/book 1.jpg" alt="Book 1">
+          <div class="p-4">
+              <h3 class="text-xl font-semibold mb-2">The Socrates Express</h3>
+              <p class="text-gray-600">Author: Eric Weiner</p>
+              <a href="https://www.simonandschuster.com/books/The-Socrates-Express/Eric-Weiner/9781501129025" class="mt-4 inline-block bg-blue-500 hover:bg-blue-900 text-white px-4 py-2 rounded">Learn More</a>
+          </div>
+      </div>
+        <!-- Featured Book Card 2 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="books/book 2.jpg" alt="Book 2">
+          <div class="p-4">
+              <h3 class="text-xl font-semibold mb-2">12 Rules for Life</h3>
+              <p class="text-gray-600">Author: Jordan B. Peterson</p>
+              <a href="https://nasihah.net/wp-content/uploads/books/12-Rules-for-Life.pdf" class="mt-4 inline-block bg-blue-500 hover:bg-blue-900 text-white px-4 py-2 rounded">Learn More</a>
+          </div>
+      </div>
+        <!-- Featured Book Card 3 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="books/book 3.jpg" alt="Book 3">
+          <div class="p-4">
+              <h3 class="text-xl font-semibold mb-2">Think and Grow Rich</h3>
+              <p class="text-gray-600">Author: Napoleon Hill</p>
+              <a href="https://www.gutenberg.org/ebooks/25717" class="mt-4 inline-block bg-blue-500 hover:bg-blue-900 text-white px-4 py-2 rounded">Learn More</a>
+          </div>
+      </div>
+  </div>
+</main>
+<footer class="bg-gray-200 py-4">
+  <div class="container mx-auto text-center">
+      <p>&copy; 2023 Philosopher's Library. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
